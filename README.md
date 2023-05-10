@@ -8,17 +8,18 @@ This repository contains Python code for tracking vehicles (such as cars, buses,
 1. git clone https://github.com/sankalpvarshney/Track-And-Count-Object-using-YOLO.git
 2. cd Track-And-Count-Object-using-YOLO
 3. conda create --prefix ./env python=3.8 -y
-4. pip install ultralytics
-5. git clone https://github.com/ifzhang/ByteTrack.git
-6. cd ByteTrack
-7. sed -i 's/onnx==1.8.1/onnx==1.9.0/g' requirements.txt
-8. pip install -q -r requirements.txt
-9. python setup.py -q develop
-10. pip install -q cython_bbox
-11. pip install -q onemetric
-12. pip install -q loguru lap
-13. pip install numpy==1.22.4
-14. pip install supervision==0.1.0
+4. conda activate ./env
+5. pip install ultralytics
+6. git clone https://github.com/ifzhang/ByteTrack.git
+7. cd ByteTrack
+8. sed -i 's/onnx==1.8.1/onnx==1.9.0/g' requirements.txt
+9. pip install -q -r requirements.txt
+10. python setup.py -q develop
+11. pip install -q cython_bbox
+12. pip install -q onemetric
+13. pip install -q loguru lap
+14. pip install numpy==1.22.4
+15. pip install supervision==0.1.0
 ```
 
 ## Usage
