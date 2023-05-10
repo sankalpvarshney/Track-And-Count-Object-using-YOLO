@@ -39,6 +39,10 @@ obj = TrackObject(<input_video_path>,<output_video_path>)
 obj.process_video()
 ```
 
+https://github.com/sankalpvarshney/Track-And-Count-Object-using-YOLO/assets/41926323/bbeb35b4-3f0f-49cd-b222-2bf92ac001f7
+
+
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
